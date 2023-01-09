@@ -1,0 +1,37 @@
+﻿{
+  "Agencies": [
+    {
+      "Name": "test1",
+      "Code": "00001"
+    },
+    {
+      "Name": "test2",
+      "Code": "00002"
+    },
+    {
+      "Name": "test3",
+      "Code": "00003"
+    },
+    {
+      "Name": "test4",
+      "Code": "00004"
+    }
+  ],
+  "IgnoreWords": [
+    {
+      "Word": "REDIRECT_TO_PAYMENT_GATE"
+    },
+    {
+      "Word": "REDIRECT_FROM_PAYMENT_GATE"
+    }
+  ],
+  "Databases": [
+    {
+      "DatabaseName": "test",
+      "DatabaseSource": "Data Source=D:\\Testers\\DatabasesForProjects\\test.accdb;",
+      "DatabaseFile": "",
+      "Security": "Persist Security Info=False;",
+      "Provider": "Provider=Microsoft.ACE.OLEDB.12.0;"
+    }
+  ]
+}
